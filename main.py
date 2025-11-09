@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-# 在此文件处编辑代码
+
 def analyze_text_frequency(text):
      text = text.replace(" ", "").replace("\n", "").replace("\t", "")
      frequency = {}
