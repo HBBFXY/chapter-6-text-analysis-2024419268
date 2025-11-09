@@ -10,6 +10,5 @@ def analyze_text_frequency(text):
      sorted_frequency = sorted(frequency.items(), key=lambda x: x[1], reverse=True)
      for char, count in sorted_frequency:
         print(f"'{char}': {count}")
-
 input_text = input("请输入一段文本：")
 analyze_text_frequency(input_text)
